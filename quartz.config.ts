@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "tom.liu",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -16,41 +16,41 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "tom-liu.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Inter",
+        body: "Inter",
+        code: "Google Sans Code",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#fdfcfa",        // soft warm white, feels inviting
+          lightgray: "#e6e4e1",    // muted stone gray
+          gray: "#aaa9a6",         // warm neutral gray
+          darkgray: "#4b4b4b",     // deep charcoal gray
+          dark: "#262626",         // almost black for strong contrast
+          secondary: "#355c7d",    // calm deep blue with a touch of slate
+          tertiary: "#a8c3b6",     // soft sage green for balance
+          highlight: "rgba(168, 195, 182, 0.18)", // gentle greenish highlight
+          textHighlight: "#ffe06688",             // warm golden text highlight
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#1b1b1e",        // rich near-black with a hint of warmth
+          lightgray: "#3d3c40",    // cool muted gray
+          gray: "#7a7a7a",         // medium warm gray
+          darkgray: "#d5d5d5",     // soft light for contrast text
+          dark: "#f2f2f3",         // off-white for inverted scheme
+          secondary: "#9cb3c9",    // softened blue-gray for dark mode
+          tertiary: "#a8c3b6",     // consistent sage tone
+          highlight: "rgba(168, 195, 182, 0.18)", // same greenish glow
+          textHighlight: "#e8d95c88",             // muted golden text highlight
         },
-      },
+      }
     },
   },
   plugins: {
